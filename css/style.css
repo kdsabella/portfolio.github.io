@@ -433,79 +433,6 @@
             font-size: var(--normal-font-size);
         }
         /* Skills section */
-        /* .body {
-            justify-content: center;
-            align-items: center;
-            display: flex;
-            min-height: 90vh;
-        } */
-        /* .card-test {
-            margin: auto;
-            position: relative;
-            width: 200px;
-            height: 300px;
-            border-radius: 0px 10px 10px 0;
-            background: #f4f4f4;
-            perspective: 100em;
-            box-shadow: 30px 40px 40px rgba(0, 0, 0, 0.2);
-        }
-        
-        .cover {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 100%;
-            background: #A10035;
-            transform-style: preserve-3d;
-            transform-origin: left;
-            transition: transform 1s;
-            border-radius: 0px 10px 10px 0px;
-        }
-        
-        .card-test:hover .cover {
-            transform: rotateY(-120deg);
-        }
-        
-        .coverFront,
-        .coverBack {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-        }
-        
-        .coverFront {
-            background: #A10035;
-            border-radius: 0px 10px 10px 0px;
-            color: #A10035;
-        }
-        
-        .coverBack {
-            background: #ddd;
-            border-radius: 10px 0px 0px 10px;
-            transform: rotateY(180deg);
-        } */
-        /* .coverFront {
-            background: #A10035;
-            text-align: center;
-            border-radius: 0px 10px 10px 0px;
-            color: #333;
-        }
-        
-        .coverBack {
-            background: #fff;
-            border-radius: 0px 10px 10px 0px;
-            color: #333;
-        }
-        
-        .coverFront i {
-            width: 100%;
-            height: 100%;
-            font-size: 50px;
-        } */
         
         .skills .container .content {
             width: 100%;
@@ -524,7 +451,7 @@
         .skills-info {
             max-width: 100%;
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
             gap: 20px;
             margin: auto;
         }
