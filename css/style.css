@@ -776,6 +776,11 @@
             font-size: 1.5em;
         }
         
+        .portfolio-list .img-card .info a {
+            font-size: 1em;
+            color: #fff;
+        }
+        
         .portfolio-list .img-card .info span {
             font-size: 1.2em;
         }
